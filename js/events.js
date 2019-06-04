@@ -1,9 +1,8 @@
 //define functions here
-$(document).on("click", function(getIt) {
-  if($('p')) {
-    alert('Hey!')
+$('p').on("click", function(getIt) {
+      alert('Hey!')
   }
-})
+)
 $(document).ready(function(){
 
 // call functions here
